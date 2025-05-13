@@ -14,10 +14,7 @@
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.MvcApplicationPartsAssemblyInfo.cache
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.RazorAssemblyInfo.cache
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.RazorAssemblyInfo.cs
-/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/scopedcss/bundle/dotnet03_web_blazor.styles.css
-/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/scopedcss/projectbundle/dotnet03_web_blazor.bundle.scp.css
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/f3uy9kacyt-bpk8xqwxhs.gz
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/zxl6syb4uv-8inm30yfxf.gz
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/1silr6exdp-cmapd0fi15.gz
@@ -25,8 +22,6 @@
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/1i1znkg446-sjnzgf7e1h.gz
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/te6e4uetpq-5bzwdl5l6x.gz
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/ui0qt9tcqv-zh9s866nx2.gz
-/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/we7ccm3imt-ov1fdftn2x.gz
-/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/compressed/is57xjwnvm-ov1fdftn2x.gz
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/staticwebassets.build.json
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/staticwebassets.development.json
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -41,3 +36,4 @@
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.pdb
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.genruntimeconfig.cache
 /Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/ref/dotnet03_web_blazor.dll
+/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/dotnet03_web_blazor.sourcelink.json

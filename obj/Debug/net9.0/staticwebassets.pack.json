@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/Debug/net9.0/scopedcss/projectbundle/dotnet03_web_blazor.bundle.scp.css",
-      "PackagePath": "staticwebassets/dotnet03_web_blazor.ov1fdftn2x.bundle.scp.css"
-    },
-    {
       "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/css/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
@@ -55,6 +51,22 @@
     {
       "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/products/black-car.jpg",
+      "PackagePath": "staticwebassets/products/black-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/products/red-car.jpg",
+      "PackagePath": "staticwebassets/products/red-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/products/silver-car.jpg",
+      "PackagePath": "staticwebassets/products/silver-car.jpg"
+    },
+    {
+      "Id": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/wwwroot/products/steel-car.jpg",
+      "PackagePath": "staticwebassets/products/steel-car.jpg"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.dotnet03_web_blazor.props",
