@@ -1,7 +1,7 @@
 ﻿@using System.Net.Http
 @using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Authorization
-@using Microsoft.AspNetCore.Components.Forms
+
 @using Microsoft.AspNetCore.Components.Routing
 @using Microsoft.AspNetCore.Components.Web
 @using Microsoft.AspNetCore.Components.Web.Virtualization
@@ -9,3 +9,12 @@
 @using dotnet03_web_blazor
 @using dotnet03_web_blazor.MyComponent
 @using dotnet03_web_blazor.Shared
+
+@* các thư viện hỗ trợ form (2waybinding) *@
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@using System.ComponentModel.DataAnnotations
+
+@using dotnet03_web_blazor.Models.ViewModels
+@* Thêm thư viện chuyển đổi object thành json *@
+@using System.Text.Json

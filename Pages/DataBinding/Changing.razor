@@ -1,0 +1,36 @@
+@page "/switch-color"
+
+<div class="container-fluid">
+    <h1>Change color car</h1>
+    <div class="d-flex gap-4">
+        <div class="card w-25 ">
+            <img src="@ImageUrl" alt="...">
+        </div>
+        <div class="d-flex gap-2 align-items-start">
+            @* Cách 1: đơn giản *@
+            @* <button class="btn btn-danger" @onclick="ChangeRed">Red color</button>
+            <button class="btn btn-secondary" @onclick="ChangeSilver">Silver color</button>
+            <button class="btn btn-dark" @onclick="ChangeBlack">Black color</button>
+            <button class="btn btn-light border" @onclick="ChangeSteel">Steel color</button> *@
+
+            @* Cách 2: cần suy nghĩ hơn xíu *@
+            <button class="btn btn-danger" @onclick='()=>ChangeColor("red")'>Red color</button>
+            <button class="btn btn-secondary" @onclick='()=>ChangeColor("silver")'>Silver color</button>
+            <button class="btn btn-dark" @onclick='()=>ChangeColor("black")'>Black color</button>
+            <button class="btn btn-light border" @onclick='()=>ChangeColor("steel")'>Steel color</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string ImageUrl = "products/black-car.jpg";
+
+    private void ChangeRed() => ChangeColor("red");
+    private void ChangeSilver() => ChangeColor("silver");
+    private void ChangeBlack() => ChangeColor("black");
+    private void ChangeSteel() => ChangeColor("steel");
+    private void ChangeColor(string color)
+    {
+        ImageUrl = $"products/{color}-car.jpg";
+    }
+}

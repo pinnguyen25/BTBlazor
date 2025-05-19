@@ -8,24 +8,25 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/khai/.nuget/packages/": {}
+    "C:\\Users\\HP VICTUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/dotnet03_web_blazor.csproj",
+      "projectUniqueName": "D:\\WebCore\\BTBlazor\\dotnet03_web_blazor\\dotnet03_web_blazor.csproj",
       "projectName": "dotnet03_web_blazor",
-      "projectPath": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/dotnet03_web_blazor.csproj",
-      "packagesPath": "/Users/khai/.nuget/packages/",
-      "outputPath": "/Volumes/Cybersoft/dotnet03/blazor_web_v9/dotnet03_web_blazor/obj/",
+      "projectPath": "D:\\WebCore\\BTBlazor\\dotnet03_web_blazor\\dotnet03_web_blazor.csproj",
+      "packagesPath": "C:\\Users\\HP VICTUS\\.nuget\\packages\\",
+      "outputPath": "D:\\WebCore\\BTBlazor\\dotnet03_web_blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/khai/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\HP VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +45,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -68,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
