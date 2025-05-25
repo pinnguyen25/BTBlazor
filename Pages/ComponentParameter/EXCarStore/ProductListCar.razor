@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <h3>Danh sách xe</h3>
+        @foreach (ProductCardVM item in lstCarProd)
+        {
+            <div class="col-3">
+                <ProductCar prodItemCar="@item" ChangeCarDetail="ChangeCarDetail"/>
+            </div>
+
+        }
+
+    </div>
+</div>
+
+
+@code
+{
+
+    public List<ProductCardVM> lstCarProd = DbCarProduct.lstProductCar;
+    
+    [Parameter]
+    public EventCallback<ProductCardVM> ChangeCarDetail{get;set;}
+}

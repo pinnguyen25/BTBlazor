@@ -25,10 +25,10 @@
 @code {
     private string ImageUrl = "products/black-car.jpg";
 
-    private void ChangeRed() => ChangeColor("red");
+    @* private void ChangeRed() => ChangeColor("red");
     private void ChangeSilver() => ChangeColor("silver");
     private void ChangeBlack() => ChangeColor("black");
-    private void ChangeSteel() => ChangeColor("steel");
+    private void ChangeSteel() => ChangeColor("steel"); *@
     private void ChangeColor(string color)
     {
         ImageUrl = $"products/{color}-car.jpg";

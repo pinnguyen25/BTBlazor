@@ -1,0 +1,34 @@
+
+
+<div class="card">
+    <img src="@dataSP.HinhAnh" alt="..."
+    height="200" style="object-fit: cover;"/>
+    <div class="card-body">
+        <h3 class="text-title">@dataSP.TenSanPham</h3>
+        <div class="card-text">@dataSP.GiaBan</div>
+        <button class="btn btn-dark" @onclick="()=> clickThemGioHang(dataSP)">
+            <i class="fa fa-cart-plus">Thêm giỏ hàng</i>
+        </button>
+    </div>
+</div>
+
+@code
+{
+    [Parameter]
+    public SanPhamVM dataSP{get;set;} = new SanPhamVM();
+    [Parameter]
+    public EventCallback <SanPhamGioHang> themGioHang{get;set;}
+    public void clickThemGioHang(SanPhamVM spClick)
+    {
+        // tại đây gọi hàm event callback đc truyền từ component gốc là BTGioHang để đưa dữ liệu lên component đố làm thay đổi state
+        // tạo ra dữ liệu có type là SanPhamGioHang
+        SanPhamGioHang spGH = new SanPhamGioHang();
+        spGH.MaSanPham = spClick.MaSanPham;
+        spGH.TenSanPham = spClick.TenSanPham;
+        spGH.HinhAnh = spClick.HinhAnh;
+        spGH.GiaBan = spClick.GiaBan;
+        spGH.SoLuong = 1;
+        themGioHang.InvokeAsync(spGH);
+    }
+
+}

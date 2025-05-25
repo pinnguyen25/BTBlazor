@@ -1,0 +1,21 @@
+
+<div class="card">
+    <img src="@prodItemCar.img" alt="...">
+    <div class="card-body">
+        <h1 class="card-title">@prodItemCar.name</h1>
+        <p class="card-text">@prodItemCar.price</p>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalId" @onclick="()=> handleChangeModal(prodItemCar)">Details</button>
+    </div>
+</div>
+
+@code
+{
+    [Parameter]
+    public ProductCardVM prodItemCar{get; set;} = new ProductCardVM();
+    [Parameter]
+    public EventCallback<ProductCardVM> ChangeCarDetail{get;set;}
+    public void handleChangeModal(ProductCardVM itemClick)
+    {
+        ChangeCarDetail.InvokeAsync(itemClick);
+    }
+}
