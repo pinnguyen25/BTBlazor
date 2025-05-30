@@ -1,8 +1,3 @@
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.exe
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\appsettings.Development.json
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\appsettings.json
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.runtime.json
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.endpoints.json
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.GeneratedMSBuildEditorConfig.editorconfig
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.AssemblyInfoInputs.cache
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.AssemblyInfo.cs
@@ -11,6 +6,15 @@ D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.Mvc
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.RazorAssemblyInfo.cache
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.RazorAssemblyInfo.cs
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.sourcelink.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\appsettings.Development.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\appsettings.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.runtime.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.endpoints.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.exe
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.deps.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.runtimeconfig.json
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.dll
+D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.pdb
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\scopedcss\bundle\dotnet03_web_blazor.styles.css
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\f3uy9kacyt-6gzpyzhau4.gz
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\zxl6syb4uv-8inm30yfxf.gz
@@ -19,6 +23,7 @@ D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\n9ahkubxoo-w
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\1i1znkg446-sjnzgf7e1h.gz
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\te6e4uetpq-5bzwdl5l6x.gz
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\ui0qt9tcqv-zh9s866nx2.gz
+D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\compressed\8esalhl4rb-qu1quty1a4.gz
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\staticwebassets.build.json
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\staticwebassets.development.json
@@ -26,9 +31,5 @@ D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\staticwebassets.build.e
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.dll
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\refint\dotnet03_web_blazor.dll
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.pdb
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.deps.json
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.runtimeconfig.json
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.dll
-D:\WebCore\BTBlazor\dotnet03_web_blazor\bin\Debug\net9.0\dotnet03_web_blazor.pdb
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\dotnet03_web_blazor.genruntimeconfig.cache
 D:\WebCore\BTBlazor\dotnet03_web_blazor\obj\Debug\net9.0\ref\dotnet03_web_blazor.dll

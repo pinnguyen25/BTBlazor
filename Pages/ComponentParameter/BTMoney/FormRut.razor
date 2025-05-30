@@ -1,0 +1,84 @@
+<!-- Button trigger modal -->
+<button
+    type="button"
+    class="btn btn-danger btn-md"
+    data-bs-toggle="modal"
+    data-bs-target="#RutTienModal"
+>
+    Rút Tiền
+</button>
+
+<!-- Modal -->
+<div
+    class="modal fade"
+    id="RutTienModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="RutTienModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="RutTienModalLabel">
+                    Rút tiền
+                </h3>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <label for="" class="form-label">Số tiền cần rút</label>
+                    <input type="number" class="form-control" @bind="soTien" placeholder="Nhập số tiền" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                >
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary" @onclick="RutTien">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    private decimal soTien{get;set;}
+    public string? error;
+
+    [Parameter]
+    public EventCallback<decimal> OnRutTien{get;set;}
+
+    [Parameter]
+    public decimal soDu{get;set;}
+
+    [Inject] 
+    private IJSRuntime JS { get; set; }
+
+    private async Task RutTien()
+    {
+        if(soTien<=0)
+        {
+            error ="Số tiền rút phải lớn hơn 0";
+            return;
+        }
+        if(soTien>soDu)
+        {
+            error="Số tiền rút không được vượt quá số dư";
+            return;
+        }
+
+        await OnRutTien.InvokeAsync(soTien);
+        soTien=0;
+        error=null;
+    }
+}

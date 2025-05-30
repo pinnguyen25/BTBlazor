@@ -1,0 +1,73 @@
+<!-- Button trigger modal -->
+<button
+    type="button"
+    class="btn btn-success btn-md"
+    data-bs-toggle="modal"
+    data-bs-target="#NapTienModal"
+>
+    Nạp Tiền
+</button>
+
+<!-- Modal -->
+<div
+    class="modal fade"
+    id="NapTienModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="NapTienModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="NapTienModalLabel">
+                    Nạp tiền
+                </h3>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <label for="" class="form-label">Số tiền cần nạp</label>
+                    <input class="form-control" @bind="soTien" placeholder="Nhập số tiền" />
+                    @if(!string.IsNullOrEmpty(error))
+                    {
+                        <div class="text-danger mt-2">@error</div>
+                    }
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                >
+                    Huỷ
+                </button>
+                <button type="button" class="btn btn-primary" @onclick="NapTien">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    private decimal soTien{get;set;}
+    private string? error;
+    [Parameter] public EventCallback<decimal> OnNapTien{get;set;}
+    private async Task NapTien()
+    {
+        if(soTien <=0)
+        {
+            error = "Số tiền phải lớn hơn 0";
+            return;
+        }
+        await OnNapTien.InvokeAsync(soTien); // gọi hàm từ component cha
+        soTien =0; //reset lại input để nhập tiếp
+        error = null; //xoá lỗi
+    }
+}

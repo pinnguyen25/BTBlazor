@@ -52,6 +52,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW1ldGVyXEJUQ2FydFxTYW5QaGFtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/ComponentParameter/BTMoney/BTViTien.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW1ldGVyXEJUTW9uZXlcQlRWaVRpZW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/ComponentParameter/BTMoney/FormNap.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW1ldGVyXEJUTW9uZXlcRm9ybU5hcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/ComponentParameter/BTMoney/FormRut.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW1ldGVyXEJUTW9uZXlcRm9ybVJ1dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/ComponentParameter/ComponentParameter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50UGFyYW1ldGVyXENvbXBvbmVudFBhcmFtZXRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,6 +150,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/Interests.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW50ZXJlc3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoDispose/DemoDispose.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9EaXNwb3NlXERlbW9EaXNwb3NlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoOninit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9PbmluaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoRendering/ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9SZW5kZXJpbmdcQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoRendering/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9SZW5kZXJpbmdcUGFyZW50Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoRendering/StaticCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9SZW5kZXJpbmdcU3RhdGljQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoSetParametter/DemoSetParametter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9TZXRQYXJhbWV0dGVyXERlbW9TZXRQYXJhbWV0dGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/LifeCycle/DemoSetParametter/DetailProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUN5Y2xlXERlbW9TZXRQYXJhbWV0dGVyXERldGFpbFByb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/WebCore/BTBlazor/dotnet03_web_blazor/Pages/Login.razor]

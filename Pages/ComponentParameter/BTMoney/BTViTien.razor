@@ -1,0 +1,75 @@
+@page "/wallet"
+<div class="container">
+    <div class="form-group w-70 text-center mx-auto">
+        <h3>Ví tiền</h3>
+        <div class="m-3">
+            <h1 class="text text-warning">@soDu.ToString("N0") VNĐ</h1>
+            <strong>Số dư hiện tại</strong>
+        </div>
+        <FormNap OnNapTien="ActNapTien" />
+        <FormRut OnRutTien="ActRutTien" soDu="@soDu"/>
+        <br>
+        <div class="mt-5">
+            <h5>Lịch sử giao dịch</h5>
+            <div class="table-responsive d-flex justify-content-center">
+
+                @if (lstGD.Any())
+                {
+                    <table class="table table-bodered w-60 text-center">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Loại giao dịch</th>
+                                <th>Số tiền</th>
+                                <th>Thời gian</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var gd in lstGD)
+                            {
+                                <tr>
+                                    <td>@gd.Loai</td>
+                                    <td>@gd.SoTien.ToString("N0") VNĐ</td>
+                                    <td>@gd.Time</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <p>Chưa có lịch sử giao dịch nào</p>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+@code
+{
+    private decimal soDu { get; set; } = 0;
+    private List<LichSuGiaoDich> lstGD = new List<LichSuGiaoDich>();
+    private void ActNapTien(decimal soTien)
+    {
+        soDu += soTien;
+        lstGD.Add(new LichSuGiaoDich
+        {
+            Loai = LoaiGiaoDich.Nạp,
+            SoTien = soTien,
+            Time = DateTime.Now
+        });
+    }
+
+    private void ActRutTien(decimal soTien)
+    {
+        soDu -= soTien;
+        lstGD.Add(new LichSuGiaoDich
+        {
+            Loai = LoaiGiaoDich.Rút,
+            SoTien = soTien,
+            Time = DateTime.Now
+        });
+    }
+}
