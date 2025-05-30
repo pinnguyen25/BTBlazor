@@ -1,1 +1,1 @@
-Bài em làm ở phần contact với trong databinding -> car ạ :3
+Bài em làm ở phần about,trong databinding (car, customer , course ) , component parameter (wallet)
